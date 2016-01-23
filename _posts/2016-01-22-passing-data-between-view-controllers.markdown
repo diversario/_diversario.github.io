@@ -13,13 +13,13 @@ This is an easy and straightforward way of passing data around using hooks provi
 
 We’ll be using two methods that UIViewController provides to work with segues: `performSegueWithIdentifier:id:sender` and `prepareForSegue:segue:sender`. But first, we need to create the segue itself (duh 😉):
 
-![Creating a segue.](/images/2018-01-22/make-segue.gif)
+![Creating a segue.](/images/2016-01-22/make-segue.gif)
 
 All you need to do is drag from your source view controller into the destination one; make sure to start dragging from the yellow circle icon at in the header of the view controller. Select **Show** or **Show Detail** as segue type. The difference between the two is how they’re presented: **Show** will slide up from the bottom of the screen while **Show Detail** will slide from the right to left. You should see an arrow with a circle on it appear between the two view controllers.
 
 Once the segue is created you need to give it an identifier. Select the segue on the storyboard and go to the **Attributes Inspector - Identifier**:
 
-![Segue identifier](/images/2018-01-22/segue-id.png)
+![Segue identifier](/images/2016-01-22/segue-id.png)
 
 We got our segue! Now, the fun part.
 
@@ -39,7 +39,7 @@ A variation of the first method, this one does not require a segue. The main ide
 
 First, we need to give our destination view controller a storyboard ID:
 
-![Segue identifier](/images/2018-01-22/storyboard-id.png)
+![Segue identifier](/images/2016-01-22/storyboard-id.png)
 
 Then, just like in the previous method, we add some code to the function from which we want to do the segue:
 
