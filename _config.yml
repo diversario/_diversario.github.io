@@ -1,16 +1,16 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno' 
+title: Ilya Shaisultanov
+description: "When 140 characters aren't enough."
+url: 'http://diversario.github.io/'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-51511945-2'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Ilya Shaisultanov'
+  email: ilya.shaisultanov@gmail.com
+  twitter_username: diversario
+  github_username:  diversario
+  linkedin_username:  shaisultanov
 
 # Build settings
 destination: _site
