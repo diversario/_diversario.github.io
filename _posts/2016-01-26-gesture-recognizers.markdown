@@ -27,3 +27,15 @@ Now, the last and a **very important** part (which I keep forgetting to do mysel
 And we're in business!
 
 ![Taps!](/images/2016-01-26/demo-1.gif)
+
+### Recognizers using only code
+
+Storyboards are great but sometimes you can't achieve what you want with them (or you don't like them).
+
+Adding a gesture recognizer from code is fairly easy. Let's do the same thing we did in the previous section.
+
+Here's all the code that you need to do that is here, commented.
+
+<script src="https://gist.github.com/diversario/bf9ebf6a1c92ed95b3a9.js"></script>
+
+It works just like the previous example!
