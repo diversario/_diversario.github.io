@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple gesture recognition"
 date:   2016-01-26 09:44:31
-categories: ios swift xcode
+categories: ios
 tags: [ios, swift, xcode, gestures]
 ---
 

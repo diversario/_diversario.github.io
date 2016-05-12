@@ -2,7 +2,7 @@
 layout: post
 title:  "Passing data between view controllers"
 date:   2016-01-22 19:38:23
-categories: ios swift xcode
+categories: ios
 tags: [ios, swift, xcode, viewcontroller, segue]
 ---
 The first time I tried to use a table view this problem came up almost immediately: how do I tell the detail view which cell I tapped on? As it turned out, there are several ways of doing this and it doesn’t matter if you’re using a table view or a simple button.

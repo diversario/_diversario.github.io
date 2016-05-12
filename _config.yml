@@ -12,12 +12,21 @@ author:
   github_username:  diversario
   linkedin_username:  shaisultanov
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
 # Build settings
 destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
+future: true
 
 kramdown:
   # use Github Flavored Markdown
@@ -25,4 +34,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatic font size in UILabel"
 date:   2016-01-16 20:36:45
-categories: ios swift xcode
+categories: ios
 tags: [ios, swift, xcode, label]
 ---
 When you use a `UILabel` to display a variable amount of text sometimes you want it to increase or decrease the font size to either fit more text or fill the label with a short snippet.
